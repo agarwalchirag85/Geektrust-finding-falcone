@@ -1,0 +1,80 @@
+.container-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.container-dropdown{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.container-timer{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+.container-timer-content {
+    text-align: center;
+}
+.container-button{
+    display: flex;
+    justify-content: center;   
+}
+.container-button-content{
+    width: 50%;
+    padding: 5px;
+    margin-block-end: 20px;
+}
+.container-spin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+@media screen and (max-width: 960px) {
+    .container-body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-dropdown{
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        float: left;
+        height: 90vh;
+    }
+    .container-timer{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-dropdown{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .container-timer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        float: right;
+    }
+}

@@ -1,0 +1,22 @@
+.wrapper-result{
+    width: 100%;
+    height: 81vh;
+}
+.container-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.content-result h2{
+    text-align: center;
+}
+.content-result p{
+    font-size: 20px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+

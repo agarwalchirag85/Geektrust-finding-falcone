@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    padding: 18px 0;
+    color: 	#F0F0F0;
+    background: #505050;
+}
+.container-footer{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-footer p{
+    font-size: 18px;
+    padding: 0px;
+    margin: 4px 0px;
+    
+}
+
+@media screen and (max-width: 768px) {
+.content-footer p{
+    font-size: 15px;
+    padding: 0px;
+    margin: 4px 0px;
+}
+}
