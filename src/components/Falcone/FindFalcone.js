@@ -116,15 +116,11 @@ class FindFalcone extends Component {
 
     createDropDown = (data)=>{
         let planetslistname=data.map((ele)=>{return ele.name});
-        let elements = planetslistname.map((item, index) => {
 
-            if(!this.props.selectedplanets.includes(item)){
-                return (
-                    <Option key={index} value={item} >{item}</Option>
-                )
-            }
-        })
-        return elements;
+        let element=planetslistname.filter((ele)=> !this.props.selectedplanets.includes(ele))
+        .map((item,index) =><Option key={index} value={item} >{item}</Option>);
+
+        return element;
     }
 
     createRadio = (data)=>{
